@@ -1,4 +1,4 @@
-package dio.java.gof;
+package dio.java.gof.singleton;
 
 // singleton - preguiçoso
 
