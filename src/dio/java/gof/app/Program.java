@@ -1,5 +1,6 @@
 package dio.java.gof.app;
 
+import dio.java.gof.facade.Facade;
 import dio.java.gof.singleton.SingletonEager;
 import dio.java.gof.singleton.SingletonLazy;
 import dio.java.gof.singleton.SingletonLazyHolder;
@@ -51,6 +52,9 @@ public class Program {
         System.out.println("---------------------");
 
         // Testes relacionados ao design pattern facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Lucas", "123456789");
 
     }
 }
